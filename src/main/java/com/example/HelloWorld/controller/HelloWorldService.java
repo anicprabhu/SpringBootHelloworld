@@ -8,7 +8,7 @@ public class HelloWorldService {
 
 	@GetMapping("/")
 	public String home() {
-		return "This is Home Page";
+		return "This is Home Page Updated";
 	}
 	
 	@GetMapping("/hello-world")
